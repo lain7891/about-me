@@ -38,6 +38,23 @@
   border: none;
 }
 
+.italy {
+  width: 125px;
+  height: 125px;
+  padding-right: 25px;
+}
+
+.brussels {
+  width: 125px;
+  height: 125px;
+  padding-right: 25px;
+}
+
+.madrid {
+  width: 125px;
+  height: 125px;
+}
+
 
   .footer {
     position: fixed;
