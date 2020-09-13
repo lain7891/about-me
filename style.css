@@ -23,15 +23,18 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+.my-pic {
+  width: 250px;
+  height: 250px;
+}
+
+
     .btn {
         background-color:rgb(44, 184, 184); 
         border: none;
     }
 
-    .card-img-top {
-      width: 300px;
-      height: 250px; 
-    }
 
   .footer {
     position: fixed;
