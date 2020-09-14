@@ -33,24 +33,25 @@
   margin-top: 5px;
 }
 
-
 .btn {
   background-color:rgb(44, 184, 184); 
   border: none;
 }
 
+.portfolio {
+  font-size: 30px;
+}
 .italy {
-  width: 50%;
+  width: 125px;
   height: 125px;
   padding-right: 25px;
   float: left;
 }
 
 .brussels {
-  width: 50%;
+  width: 125px;
   height: 125px;
   padding-right: 25px;
-  float: left;
 }
 
 .madrid {
@@ -70,4 +71,10 @@
     text-align: center;
     height: 50px;
     border-top: rgb(44, 184, 184) solid 5px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .portfolio-card {
+      width: 50%;
+    }
   }
