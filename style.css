@@ -2,7 +2,7 @@
     background: rgb(44, 184, 184);
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 #main { 
@@ -21,7 +21,7 @@
     background: white;
     color: rgb(44, 184, 184);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -85,7 +85,10 @@ h3 {
 
   @media only screen and (max-width: 768px) {
     .jumbotron {
-      width: 50%;
-      padding-right: 40px;
+      width: 45%;
+      height: 100%;
+      padding: 40px;
     }
+
+  
   }
