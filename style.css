@@ -1,8 +1,8 @@
 .navbar-brand {
-    background: rgb(44, 184, 184);
+    background: teal;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 #main { 
@@ -19,9 +19,9 @@
 
   .card-header {
     background: white;
-    color: rgb(44, 184, 184);
+    color: teal;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ h3 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 35px;
   font-weight: bold;
-  color: rgb(44, 184, 184);
+  color: teal;
 }
 
 .my-pic {
@@ -62,7 +62,7 @@ h3 {
 }
 
 .btn {
-  background-color:rgb(44, 184, 184); 
+  background-color:teal; 
   border: none;
 }
 
@@ -80,7 +80,7 @@ h3 {
     color: lightslategray;
     text-align: center;
     height: 50px;
-    border-top: rgb(44, 184, 184) solid 5px;
+    border-top: teal solid 5px;
   }
 
   @media only screen and (max-width: 768px) {
