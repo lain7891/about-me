@@ -33,8 +33,8 @@
 
 /* The main part of my portfolio */
 .jumbotron {
-  width: 28%;
-  height: 90%;
+  width: 32%;
+  height: 94%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 20px;
@@ -49,6 +49,7 @@
   height: 150px;
   float: left;
   border: solid;
+  margin-bottom: 20px;
 } 
 /* Portfolio heading style */
 h3 {
@@ -98,15 +99,17 @@ p {
   }
 
   @media only screen and (max-width: 768px) and (min-width: 0) {
-    #main {
-      max-width: 100%;
-    }
-     /* .jumbotron {
-      width: 52%;
-      height: 800px;
-      padding: 40px;
+    .jumbotron {
+      width: 50%;
+      height: 60%;
+      padding: 30px;
     } 
-    */
+
+    #main {
+      width: 100%;
+      height: 100%;
+    }
+  
 
     /* .card {
       width: 65%;
