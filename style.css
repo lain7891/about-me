@@ -16,7 +16,7 @@
     max-width: 100%; 
     height: 100vh;
     padding-top: 60px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
   }
 /* The heading on the cards for contact.html and index.html */
   .card-header {
@@ -39,15 +39,19 @@
   margin-bottom: 10px;
   padding-top: 20px;
   padding-bottom: 25%;
+  background: white;
 }
 
+.logos {
+  margin: auto;
+  padding-bottom: 25px;
+}
 /* The images in my portfolio */
  .image {
   width: 150px;
   height: 150px;
   float: left;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  border-style: solid;
 } 
 /* Portfolio heading style */
 h3 {
@@ -96,16 +100,17 @@ p {
     border-top: teal solid 5px;
   }
 
-  @media only screen and (max-width: 900px) and (min-width: 400px) {
+  @media only screen and (max-width: 900px) and (min-width: 350px) {
      .jumbotron {
       width: 52%;
       height: 800px;
       padding: 40px;
     } 
+   
 
-    .card {
+    /* .card {
       width: 65%;
       height: 100px;
     
-    } 
+    }  */
   }

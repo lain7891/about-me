@@ -11,4 +11,4 @@ I used the following components from bootstrap to recreate the examples given to
 •	Footer
 •	Linking images to other pages
  
-Using bootstrap gave me the confidence that I could actually create a website. It was a very useful tool. My biggest struggle was adding the images to the portfolio. I solved this by using the grid from bootstrap, inspecting the page and lots of trial and error. My other struggle was getting the text in the about me to wrap to my picture. While bootstrap gives you the code you need to personalize it tweak it to get the results that you need, which was the most important lesson learned. 
+Using bootstrap gave me the confidence that I could actually create a website. It was a very useful tool. My biggest struggle was adding the images to the portfolio. I solved this by using the grid from bootstrap, inspecting the page and lots of trial and error. My other struggle was getting the text in the about me to wrap to my picture and getting my pages to be mobile responsive. While bootstrap gives you the code you need to personalize it tweak it to get the results that you need, which was the most important lesson learned. 
