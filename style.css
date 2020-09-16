@@ -62,9 +62,9 @@ h3 {
 }
 
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
-  color: black;
+  color: rgb(102, 99, 99);
 }
 
 .btn {
@@ -89,10 +89,10 @@ p {
     border-top: teal solid 5px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) and (min-width: 400px) {
     .jumbotron {
-      width: 45%;
-      height: 100%;
+      width: 52%;
+      height: 800px;
       padding: 40px;
     }
 
