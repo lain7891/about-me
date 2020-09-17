@@ -6,6 +6,10 @@
     /* font-size: 20px; */
     font-weight: bold;
 }
+/* heading on navbar */
+h1 {
+  font-size: 30px;
+}
 /* Includes my general background */
 #main { 
     background: url(https://wallpapercave.com/wp/wp5149772.jpg) no-repeat center center fixed; 
