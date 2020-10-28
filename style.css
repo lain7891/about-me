@@ -9,9 +9,13 @@
 h1 {
   font-size: 30px;
 }
+
+.portfolio {
+  color: white;
+}
 /* Includes my general background */
 #main { 
-    background: url(https://wallpapercave.com/wp/wp5149772.jpg) no-repeat center center fixed; 
+    background: url(https://wallpapercave.com/wp/ZEBuAbe.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,7 +27,7 @@ h1 {
   }
 /* The heading on the cards for contact.html and index.html */
   .card-header {
-    background: white;
+    background: whitesmoke;
     color: teal;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
@@ -31,8 +35,21 @@ h1 {
 }
 /* Includes background color for the card in my contact.html and index.html */
 .card-body {
-  background: white; 
+  /* background: whitesmoke; */
+  /* mix-blend-mode: multiply; */
+  background: transparent;
+  
 }
+
+.contact {
+  background: transparent;
+}
+
+.card-header {
+  background: transparent;
+  color: white;
+}
+
 
 /* The main part of my portfolio */
 .jumbotron {
@@ -42,7 +59,8 @@ h1 {
   margin-bottom: 10px;
   padding-top: 20px;
   padding-bottom: 25%;
-  background: white;
+ /* mix-blend-mode: multiply; */
+ background: transparent;
 }
  /*  */
 
@@ -80,8 +98,16 @@ p {
 
 /* Submit button */
 .btn {
-  background-color:teal; 
+  background-color: white; 
   border: none;
+}
+
+.form-group {
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 /* footer of all pages */
@@ -109,4 +135,8 @@ p {
       height: 100%;
       padding-bottom: 50%;
     }
+  }
+
+  #email {
+    color: blue
   }
