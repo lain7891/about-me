@@ -18,11 +18,11 @@ o	Footer
 
 #Pages
 
-<img src="assets/images/aboutme.png">
+<img src="assets/images/aboutMe.png">
 
-<img src="assets/images/contact.png">
+<img src="assets/images/contactPage.png">
 
-<img src ="assets/images/portfolio.png">
+<img src ="assets/images/portfolioPage.png">
 
 https://lain7891.github.io/about-me/
 
