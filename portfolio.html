@@ -5,9 +5,10 @@
 <!--[if gt IE 8]><!-->
 <html lang="en" class="no-js">
   <!--<![endif]-->
-  <body>
+  
 
     <head>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
@@ -15,6 +16,7 @@
     </title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -23,6 +25,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+  <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html" style="color: white"
       ><h1>Estefania Lupo</h1></a
@@ -42,27 +45,28 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <!-- Links below will allow you to travel through the three HTML's -->
       <ul class="navbar-nav ml-auto">
-        <li class="dropdown">
+        <li class="dropdown" id="dropInfo">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Info
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" id="email" href="mailto: nialupo87@gmail.com">Email Me</a>
-            <!-- <a class="dropdown-item" href="">Linkedin</a> -->
+            <a class="dropdown-item" id="dropInfo" href="Resume.pdf">Resume</a>
+            <a class="dropdown-item" id="dropInfo" href="https://github.com/lain7891">GitHub</a>
+            <a class="dropdown-item" id="dropInfo" href="https://www.linkedin.com/in/estefania-lupo/">Linkedin</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Phone: 678.793.3025</a>
           </div>
 
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="dropInfo">
           <a class="nav-link" href="contact.html"
             >Contact <span class="sr-only">(current)</span></a
           >
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="dropInfo">
           <a class="nav-link active" href="portfolio.html">Portfolio</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="dropInfo">
           <a class="nav-link" href="index.html">About</a>
         </li>
       </ul>
@@ -78,21 +82,21 @@
           <!-- Row 1 -->
           <div class="row">
             <div class="col-sm-6 images">
-                <a target="_blank" href="Resume.pdf">     
+                <a target="_blank" href="https://lain7891.github.io/know-before-you-go/">     
               <img
                 class="image"
-                src="https://static.vecteezy.com/system/resources/previews/000/545/124/non_2x/vector-resume-word-lettering-design.jpg"
-                alt="Resume Logo"
+                src="https://image.freepik.com/free-vector/light-blue-project-management-concept_23-2147782704.jpg"
+                alt="Project Logo"
               />
               </a>
             </div>
 
             <div class="col-sm-6 images">
-            <a target="_blank" href="https://github.com/">    
+            <a target="_blank" href="https://lain7891.github.io/guess-who/">    
               <img
                 class="image"
-                src="https://www.somagnews.com/wp-content/uploads/2020/04/75-e1586981465263.png"
-                alt="Github Logo"
+                src="https://www.gettingsmart.com/wp-content/uploads/2016/02/meeting-project-management-feature-964x670.jpg"
+                alt="Desk WorkLogo"
               />
               </a>
             </div>
@@ -101,21 +105,21 @@
           <!-- Row 2 -->
           <div class="row">
             <div class="col-sm-6 images">
-                <a target="_blank" href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"> 
+                <a target="_blank" href=""> 
               <img
                 class="image"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAaVBMVEUAd7X///8AcLEEebb7/f4Debb9/v79/v8DeLY8l8Y7lsYAbbCcyuKlz+WQxN+Lwd0KfbiDvdvl8fcAc7O+3OwgiL6x1ehFnMlytNZqsNQZhLzF4O7w9/tSo81gqtGp0ebc7PUsjsJ8udngaOvIAAADg0lEQVRoge2abZeqIBCAGV7EjXItKjc1y/7/j7xD7m5AWHdD+uScs3s8kDzOIMwMDoGrSJ4lEC6H0ckVkUEiyeQPBC+ar+pjcqm+GsQMEAntUSuaQJQ+toZC8F+7U4KJBMKE6ltUwkAqJUgiEapCAJGwpSwVgxBGtyAJh4NKCVEH4AStRZNZC+1F0V5orgXN00FyukBzZekh2XsgbzFXCMIGSQlhTCsjegrMCEQQVXfF8rOrFYm3YxjCdFnw6zbdFkJHr6AgROjdGYAbATjXOlaXEISRcgN88GEZh3NJIuclBBF0BfzXr3EoYve1ACTXPViuOAO+izRYAMLUxVLEqBK7RQcggp48yHJ6SG5cjAWRsI/0A0FN9g6Ew2p6TZhae+a6pDDXwn67UKt++rcL3+Gts072sW4gDOn5L4VjRBa7rwT3LkarDMNvmeEf8EV0tDSyC9O++dZku4uPyEb8CdO6KrbNtvjQOt5rjXnGnGGkrKmibALfP+7jBQ6fs0lCvnHIn4Tlj2KBsTkJX4cGYgLH1yiD8n+A/LcgACevrHe7ujRXQYXCEFHaIsLNZjgMnMrjstm0nLebZnXodSi6Cbvfz3Zzk3Y97I/ozOxmE2Dkql5vnCS0OQbe+WAgoZbOjcUPpLBbeU0I7dprZi4xlZYyM8ENNP3d6h2DcPkj/Ab5vDVjkllrgg/DpfNA+HN59D3DKMTahW3ILbxoa3Ru/D75x59Uni6vQ3hZOL7N8j9+ePMqRMLmACNnGHce6FUItrcgA4ThCdwU9HUIjDLuVImAjB/4+EFnjCZXba6xv/SU8oLOOEhmvQgu5GRPShQER25Pl667nFrXeBmc7ZUSA8FxLyU1mSWtTw7Fm5S4ia/Ud5KsnVtM34dlrwiIxNkV31ZhhG1sXTh01sy/DkG7W55SqC9npcLXJBBvHEzPLFU4rCeBgBeHs7MDKaaA4A5ZWggvdXKzs5chGTSOn2XKTZlX02jiJnnGOU8O8ZO8u146CWTpQdYzZIbMkBkyQ2bIDJkhA+QmDsRqDkCs3tXTqH4FtiyDxx6BkMiW/ZO4K6eH/eom+27oy2nnNB+8DPfo9j5JgswBk/PVnj1sfnzTKMScPVpf7fMnzU97JzqDfCxvhMxfsf8Ake8pX3hLIUbqkhJtSkpSF8ccTXGMKSXqk5f5vKVg6Xpkkbz06j1FZJC6HO4fbRVnSvd35FUAAAAASUVORK5CYII="
-                alt="Linkedin Logo"
+                src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif"
+                alt="Image Placeholder"
               />
               </a>
             </div>
 
             <div class="col-sm-6 images">
-                <a target="_blank" href="https://lain7891.github.io/know-before-you-go/">
+                <a target="_blank" href="">
               <img
                 class="image"
-                src="https://image.freepik.com/free-vector/light-blue-project-management-concept_23-2147782704.jpg"
-                alt="Project Logo"
+                src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif"
+                alt="Image Placeholder"
               />
               </a>
               </div>
@@ -125,11 +129,11 @@
           <!-- Row 3 -->
           <div class="row">
             <div class="col-sm-6 images">
-                <a target="_blank" href="https://lain7891.github.io/guess-who/"> 
+                <a target="_blank" href=""> 
               <img
                 class="image"
-                src="https://www.gettingsmart.com/wp-content/uploads/2016/02/meeting-project-management-feature-964x670.jpg"
-                alt="Desk work Logo"
+                src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif"
+                alt="Image Placeholder"
               />
               </a>
             </div>

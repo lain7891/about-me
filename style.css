@@ -2,7 +2,8 @@
 .navbar-brand {
     background: teal;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Grandstander', cursive;
     font-weight: bold;
 }
 /* heading on navbar */
@@ -24,12 +25,14 @@ h1 {
     height: 100vh;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family: 'Grandstander', cursive;
   }
 /* The heading on the cards for contact.html and index.html */
   .card-header {
     background: whitesmoke;
     color: teal;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Grandstander', cursive;
     font-size: 40px;
     font-weight: bold;
 }
@@ -74,7 +77,8 @@ h1 {
 } 
 /* Portfolio heading style */
 h3 {
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-family: 'Grandstander', cursive;
   font-size: 35px;
   font-weight: bold;
   color: teal;
@@ -91,7 +95,8 @@ h3 {
 
 /* My paragraph style in index.html */
 p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Grandstander', cursive;
   font-size: 15px;
   color: rgb(102, 99, 99);
 }
@@ -137,6 +142,7 @@ p {
     }
   }
 
-  #email {
-    color: blue
+  #dropInfo {
+    color: blue;
+    font-family: 'Grandstander', cursive;
   }
