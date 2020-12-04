@@ -18,11 +18,11 @@ Using bootstrap gave me the confidence that I could actually create a website. I
 
 # Usage
 
-<img src="assets/images/aboutMe.png">
+<img src="./assets/images/aboutMe.png">
 
 <img src="assets/images/contactPage.png">
 
-<img src ="assets/images/portfolioPage2.png">
+<img src ="./assets/images/portfolioPage2.png">
 
 # GitHub
 
