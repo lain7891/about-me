@@ -1,4 +1,4 @@
-#About-Me
+# About-Me
 
 The purpose of this assignment was to use, as my instructor says, our “toolbox” of all the topics covered so far to recreate three HTML pages that they provided. We had to ensure that these pages designs were responsive and that they looked well if viewed in a mobile. What really helped me through this assignment was using bootstrap and using its grid system, which was one of the main points of this assignment. Using bootstrap saved me time from creating a website from scratch and for most, but not all, of my HTML pages could adjust to phone, tablets and desktop.
 
@@ -18,11 +18,11 @@ Using bootstrap gave me the confidence that I could actually create a website. I
 
 # Usage
 
-<img src="./assets/images/aboutMe.png">
+<img src= "assets/images/aboutMe.png">
 
-<img src="assets/images/contactPage.png">
+<img src= "assets/images/contactPage.png">
 
-<img src ="./assets/images/portfolioPage2.png">
+<img src = "assets/images/portfolioPage2.png">
 
 # GitHub
 
