@@ -146,3 +146,7 @@ p {
     color: blue;
     font-family: 'Grandstander', cursive;
   }
+
+  .projects {
+    padding-left: 5%;
+  }
