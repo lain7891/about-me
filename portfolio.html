@@ -5,18 +5,17 @@
 <!--[if gt IE 8]><!-->
 <html lang="en" class="no-js">
   <!--<![endif]-->
-  
 
-    <head>
-
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>
-        Portfolio
-    </title>
+    <title>Portfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -26,120 +25,155 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html" style="color: white"
-      ><h1>Estefania Lupo</h1></a
-    >
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarText"
-      aria-controls="navbarText"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Navbar links with a dropdown -->
-    <div class="collapse navbar-collapse" id="navbarText">
-      <!-- Links below will allow you to travel through the three HTML's -->
-      <ul class="navbar-nav ml-auto">
-        <li class="dropdown" id="dropInfo">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Info
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" id="dropInfo" href="Resume.pdf">Resume</a>
-            <a class="dropdown-item" id="dropInfo" href="https://github.com/lain7891">GitHub</a>
-            <a class="dropdown-item" id="dropInfo" href="https://www.linkedin.com/in/estefania-lupo/">Linkedin</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Phone: 678.793.3025</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html" style="color: white"
+        ><h1>Estefania Lupo</h1></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar links with a dropdown -->
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!-- Links below will allow you to travel through the three HTML's -->
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown" id="dropInfo">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Info
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" id="dropInfo" href="Resume.pdf"
+                >Resume</a
+              >
+              <a
+                class="dropdown-item"
+                id="dropInfo"
+                href="https://github.com/lain7891"
+                >GitHub</a
+              >
+              <a
+                class="dropdown-item"
+                id="dropInfo"
+                href="https://www.linkedin.com/in/estefania-lupo/"
+                >Linkedin</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Phone: 678.793.3025</a>
+            </div>
+          </li>
+          <li class="nav-item" id="dropInfo">
+            <a class="nav-link" href="contact.html"
+              >Contact <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item" id="dropInfo">
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item" id="dropInfo">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main content  -->
+
+    <div class="container" id="main">
+      <div class="row">
+        <div class="col-sm-4 projects">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/images/know-before-you-go.png"
+              class="card-img-top"
+              alt="Image of city"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project: Know Before You Go</h5>
+              <p class="card-text">
+                App that provides users the ability to search
+                for jobs in cities that meet all their needs and wants. What is
+                unique about our site is that you will find all this information
+                in one place as opposed to having to search for it in various
+                sites. Using our site users can make an educated decision of
+                where they would move for a specific job they are interested in.
+              </p>
+            </div>
+            <div class="card-body">
+              <a href="https://lain7891.github.io/know-before-you-go/" class="card-link">Deployed Site</a>
+              <a href="https://github.com/lain7891/know-before-you-go" class="card-link">GitHub Link</a>
+            </div>
           </div>
-
-        </li>
-        <li class="nav-item" id="dropInfo">
-          <a class="nav-link" href="contact.html"
-            >Contact <span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="nav-item" id="dropInfo">
-          <a class="nav-link active" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item" id="dropInfo">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-<!-- Main content  -->
-
-<div class="container" id="main">
-  <div class="row">
-    <div class="col-sm-4 projects">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+        <div class="col-sm-4 projects">
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                App that provides users the ability to search
+                for jobs in cities that meet all their needs and wants. What is
+                unique about our site is that you will find all this information
+                in one place as opposed to having to search for it in various
+                sites. Using our site users can make an educated decision of
+                where they would move for a specific job they are interested in.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-4 projects">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+        <div class="col-sm-4 projects">
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-4 projects">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
     <!-- <main class="container" id="main">
       <section class="jumbotron">
         <h3 class="portfolio">Portfolio</h3>
         <hr class="my-1" />
         <section class="container" class="flex-container"> -->
-          <!-- Row 1 -->
-          <!-- <div class="row">
+    <!-- Row 1 -->
+    <!-- <div class="row">
             <div class="col-sm-6 images">
                 <a target="_blank" href="https://lain7891.github.io/know-before-you-go/">     
               <img
@@ -161,8 +195,8 @@
             </div>
           </div> -->
 
-          <!-- Row 2 -->
-          <!-- <div class="row">
+    <!-- Row 2 -->
+    <!-- <div class="row">
             <div class="col-sm-6 images">
                 <a target="_blank" href="https://lit-mesa-75042.herokuapp.com/"> 
               <img
@@ -185,8 +219,8 @@
             </div>
           </div> -->
 
-          <!-- Row 3 -->
-          <!-- <div class="row">
+    <!-- Row 3 -->
+    <!-- <div class="row">
             <div class="col-sm-6 images">
                 <a target="_blank" href=""> 
               <img

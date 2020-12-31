@@ -147,6 +147,12 @@ p {
     font-family: 'Grandstander', cursive;
   }
 
+  /* My cards in the portfolio */
   .projects {
     padding-left: 5%;
+  }
+
+  .card-text {
+    color: black;
+    font-size: 10px;
   }
