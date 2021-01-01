@@ -153,6 +153,11 @@ p {
   }
 
   .card-text {
-    color: black;
-    font-size: 10px;
+    color: white;
+    font-size: 13px;
+  }
+
+  .information {
+    background: transparent;
+    color: white;
   }
