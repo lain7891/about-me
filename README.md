@@ -22,7 +22,7 @@ Using bootstrap gave me the confidence that I could actually create a website. I
 
 <img src="assets/images/contactPage.png">
 
-<img src ="assets/images/PortfolioPage2.png">
+<img src ="assets/images/PortfolioPage3.png">
 
 # GitHub
 
