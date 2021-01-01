@@ -18,6 +18,8 @@ Using bootstrap gave me the confidence that I could actually create a website. I
 
 # Usage
 
+![readme-gif](assets/images/About-Me.gif)
+
 <img src="assets/images/aboutMe2.png">
 
 <img src="assets/images/contactPage.png">
